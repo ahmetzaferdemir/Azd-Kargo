@@ -1,0 +1,280 @@
+*
+{
+ margin: 0px;
+ padding: 0px;
+ box-sizing: border-box;
+ font-family: Montserrat, sans-serif, serif;
+}
+
+html
+{
+ background-color: white;
+ scroll-behavior: smooth
+}
+
+nav
+{
+ width: 1500px;
+ height: 100px;
+ margin: auto;
+ margin-top: 30px;
+
+ background-color: white;
+ border: 1px white solid;
+}
+
+.logo
+{
+ float:left;
+ margin: 17px 0px 0px 10px
+}
+
+.logo span
+{
+ font-size: 50px;
+ font-weight: bold;
+ color: orange;
+}
+
+.linkler
+{
+ position: relative;
+ top: 22px;
+ right: 470px;
+}
+
+.linkler ul
+{
+ list-style-type: none;
+}
+
+.linkler ul li a
+{
+ color: rgb(195, 127, 0);
+ text-decoration: none;
+ font-size: 18px;
+ float: right;
+ padding: 15px
+}
+
+.linkler ul li a:hover
+{
+ font-weight: bold;
+ color: orangered;
+}
+
+#kargomnerede
+{
+position: relative;
+top: 22px;
+left: 1150px
+}
+
+.container-genel
+{
+ width: 1500px;
+ min-height: 1800px;
+ margin: auto;
+ margin-top: 50px;
+
+ background-color: white;
+ border: 1px white solid;
+}
+
+.container-1
+{
+ width: 1500px;
+ min-height: 800px;
+ margin: auto;
+ 
+ background-color: white;
+ background-image: url(resimler/kargo1.jpg);
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+
+ border: 1px white solid;
+ border-radius: 10px;
+}
+
+.kargo-sorgu
+{
+ width: 400px;
+ height: 250px;
+ background-color: white;
+ border-radius: 15px;
+
+ margin: auto;
+ margin-top: 270px
+}
+
+.kenar
+{
+ float:left;
+ width: 50px;
+ height: 250px;
+ background-color: orange;
+ border-radius: 15px 0px 0px 15px;
+}
+
+.kargo-sorgu h1
+{
+ color: orange;
+ font-size: 50px;
+ margin-left: 60px;
+}
+
+.takipno
+{
+ float: left;
+ margin: 20px 0px 20px 10px;
+}
+
+.takipno input[type=text]
+{
+ padding: 5px;
+ border: 1px orange solid;
+ background-color: rgb(220, 220, 220);
+}
+
+.takipno input[type=text]:hover
+{
+ border: 1px orangered solid;
+}
+
+.kargo-sorgu button
+{
+ color: orange;
+ padding: 5px;
+
+ float: right;
+ position: relative;
+ top: 75px;
+ right: 68px;
+ background-color: transparent;
+ border: 2px orange solid;
+}
+
+.kargo-sorgu button:hover
+{
+ color: white;
+ background-color: orange;
+}
+
+.container-2
+{
+ width: 1500px;
+ min-height: 800px;
+ margin: auto;
+ margin-top: 25px;
+     
+ background-color: white;
+ background-image: url(resimler/kargo\ 4.png.jpg);
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+    
+ border: 1px white solid;
+ border-radius: 10px;
+}
+
+.yazilar
+{
+ float: right;
+ color: orange;
+ font-size: 50px;
+ font-weight: bold;
+ 
+ position: relative;
+ top: 200px;
+ right: 75px;
+}
+
+.container-3
+{
+ width: 1500px;
+ min-height: 250px;
+ margin: auto;
+ margin-top: 25px;
+     
+ background-color: white;
+ background-image: url(resimler/basvuru.jpg);
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+    
+ border: 1px white solid;
+ border-radius: 10px;
+}
+
+.is-basvurusu button
+{
+ padding: 20px;
+ background-color: transparent;
+ color:orangered;
+
+ border: 2px orangered solid;
+ border-radius: 5px;
+
+ position: relative;
+ top: 115px;
+ left: 687px
+}
+
+.is-basvurusu button:hover
+{
+ background-color: orangered;
+ color: white;
+}
+
+footer
+{
+ width: 1500px;
+ height: 250px;
+ margin: auto;
+ margin-top: 30px;
+ margin-bottom: 30px;
+
+ text-align: center;
+ border: 1px white solid;
+}
+
+.alt-linkler
+{
+ position: relative;
+ top: 45px;
+ right: 435px;
+}
+
+.alt-linkler ul
+{
+ list-style-type: none;
+}
+
+.alt-linkler ul li
+{
+ float: right;
+}
+
+.alt-linkler ul li a
+{
+ color: rgb(105, 105, 105);
+ text-decoration: none;
+ font-size: 18px;
+ padding: 25px
+}
+
+#ad
+{
+ font-size: 40px;
+ font-weight: bold;
+ opacity: 60%;
+ margin: 60px 0px 5px 0px;
+}
+
+#slogan
+{
+ font-size: 16px;
+ font-weight: lighter;
+ opacity: 60%;
+}
